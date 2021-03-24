@@ -1,8 +1,5 @@
 #!/bin/sh
-
-# A dwm_bar function to display information regarding system memory, CPU temperature, and storage
-# Joe Standring <git@joestandring.com>
-# GNU GPLv3
+# taken from neofetch 
 
 dwm_resources () {
 	# get all the infos first to avoid high resources usage
