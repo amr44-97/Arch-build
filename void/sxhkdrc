@@ -1,0 +1,40 @@
+
+
+XF86AudioRaiseVolume
+              kill -44 $(pidof dwmblocks)|amixer set Master 5db+
+
+
+XF86AudioLowerVolume
+		     kill -44 $(pidof dwmblocks)|amixer set Master 5db-
+
+XF86AudioMute
+		kill -44 $(pidof dwmblocks)|amixer set Master toggle
+
+
+control + shift + F3
+     	kill -44 $(pidof dwmblocks)|xbacklight -inc 5
+	
+
+
+control + shift + F2
+     	kill -44 $(pidof dwmblocks)|xbacklight -dec 5
+
+
+super + w
+	firefox
+
+super + o
+	clipmenu
+
+super + v
+	mpv $(xclip -o)
+
+super + s
+	st -e ranger 
+
+super + a
+    st -e nnn -Re
+
+
+
+
